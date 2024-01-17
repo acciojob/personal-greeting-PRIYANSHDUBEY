@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div>
-      <p>Enter your name:</p>
+      <h1>Enter your name:</h1>
       <form action="">
         <input type="text" value={text} onChange={handleInput} />
       </form>
